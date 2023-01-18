@@ -1,0 +1,61 @@
+body {
+    background-color: black;
+    background-image: url('https://images7.alphacoders.com/126/1265780.jpg');
+    color: white;
+    font-family: 'Inknut Antiqua', serif;
+}
+
+
+h1 {
+    margin: 40px auto;
+    text-align: center;
+}
+
+.card-grid {  
+    /* background-color: rgba(0, 0, 0, .8); */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "rhaenyra alicent viserys"
+        "daemon corlys rhaenys";
+}
+
+.card {
+    background-color: white;
+    color: black;
+    margin: 10px; 
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+h2 {
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 22px;
+}
+
+img {
+    max-width: 250px;
+    padding: 10px;
+}
+
+.button-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.alicent { grid-area: alicent; }
+
+.rhaenyra { grid-area: rhaenyra; }
+
+.viserys { grid-area: viserys; }
+
+.daemon { grid-area: daemon; }
+
+.laenor { grid-area: corlys; }
+
+.laena { grid-area: rhaenys; }
