@@ -3,11 +3,13 @@ body {
     background-image: url('https://images7.alphacoders.com/126/1265780.jpg');
     color: white;
     font-family: 'Inknut Antiqua', serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
-
 h1 {
-    margin: 40px auto;
+    margin: 10px auto;
     text-align: center;
 }
 
@@ -83,4 +85,15 @@ button {
 
 .AOD {
     margin: 0 auto;
+}
+
+input {
+    margin: 0 auto 5px auto;
+    padding: 5px 15px;
+    font-family: 'Inknut Antiqua', serif;
+    border-radius: 5px;
+}
+
+.hidden {
+    display: none;
 }
